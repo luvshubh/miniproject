@@ -3,7 +3,7 @@ import Bgimg from '../Rename/Banner.png';
 
 const  ContactUs = () => {
   return (
-<div>
+    <div>
       {/*First Part */}
       <div
       className="mx-auto h-screen bg-cover bg-center flex items-center justify-center"
@@ -36,9 +36,9 @@ const  ContactUs = () => {
 <div className="w-1/2 bg-white p-8">
   <p className="font-extrabold">Get in touch</p>
 </div>
-    </div>
-  );
-};
+    </div>  
+);
+}
 
 export default ContactUs;
 
